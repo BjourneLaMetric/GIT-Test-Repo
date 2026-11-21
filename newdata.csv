@@ -1,0 +1,8 @@
+student_id,feedback,Sentiment_Score,Sentiment
+101,Great Food,0.6249,positive
+102,Needs Improvement,0.4588,positive
+103,It was an okay experience.,0.2263,positive
+104,A solid 3 out of 5,0.1531,positive
+105,The Staff can be plenty rude at times.,-0.4588,negative
+106,Worst Experience of my Life.,-0.6249,negative
+107,Hysterically Good!,0.4926,positive

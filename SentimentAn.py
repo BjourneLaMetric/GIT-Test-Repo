@@ -16,3 +16,4 @@ def sentiet_analyzer (feedback):
             sentiment = "neutral"
     return pd.Series([score,sentiment])              
 df[["Sentiment_Scores","Sentiment"]] = df["CanteenFeedback"].apply(sentiet_analyzer) 
+df.to_csv("newdata.csv",index = 0)
